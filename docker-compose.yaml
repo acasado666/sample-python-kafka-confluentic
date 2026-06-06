@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   kafka:
     image: confluentinc/cp-kafka:8.1.3
@@ -24,7 +22,7 @@ services:
       KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
 
       #stored locally: data-files,broker-logs.controller-metadata
-      KAFKA_LOG_DIRS: jetbrains://pycharm/navigate/reference?project=KafkaPython&path=KafkaCrashCourse%2Flogs  #stored locally: data-files,broker-logs.controller-metadata
+      KAFKA_LOG_DIRS: jetbrains://pycharm/navigate/reference?project=sample-python-kafka-confluentic&path=KafkaConfluentic%2Flogs  #stored locally: data-files,broker-logs.controller-metadata
 
     # bound to where kafka data is stored in the container
     volumes:

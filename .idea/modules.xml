@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/KafkaPython.iml" filepath="$PROJECT_DIR$/.idea/KafkaPython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sample-python-kafka-confluentic.iml" filepath="$PROJECT_DIR$/.idea/sample-python-kafka-confluentic.iml" />
     </modules>
   </component>
 </project>
