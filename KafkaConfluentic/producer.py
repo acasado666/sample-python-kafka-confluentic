@@ -44,33 +44,3 @@ for i in range(20):
     # time.sleep(1)
 
 producer.flush()
-# this is a json object
-
-# order = {
-#     "order_id": str(uuid.uuid4()),
-#     "customer": random.choice(customers),
-#     "amount": 25.50 + i,
-#     "quantity": random.randint(1, 5),
-#     "created_at": time.time(),
-# }
-#
-# value = json.dumps(order).encode("utf-8")
-# producer.produce(
-#     topic=TOPIC_NAME,
-#     key=str(order["order_id"]),
-#     value=json.dumps(order),
-#     callback=delivery_report,
-# )
-
-# order = {
-#     'order_id': str(uuid.uuid4()),
-#     'user': 'antonio',
-#     'item': 'pizza',
-#     'quantity': 2,
-# }
-#
-# value = json.dumps(order).encode('utf-8')
-#
-# producer.produce('orders', value, callback = delivery_report)
-#
-# producer.flush()
