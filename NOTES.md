@@ -29,4 +29,3 @@ docker exec -it python-kafka-kafka8 kafka-topics --bootstrap-server localhost:90
 > docker exec -it kafka kafka-console-producer --topic test --bootstrap-server localhost:9092
 > docker exec -it kafka kafka-console-consumer --topic test --bootstrap-server localhost:9092 --from-beginning
 
-> https://gitlab.com/twn-youtube/kafka-crash-course
