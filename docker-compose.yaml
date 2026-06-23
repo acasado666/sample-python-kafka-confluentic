@@ -29,6 +29,6 @@ services:
       - kafka_kraft:/var/lib/kafka/data
 
 
-#fata is persisted in docker
+#data is persisted in docker
 volumes:
   kafka_kraft:
